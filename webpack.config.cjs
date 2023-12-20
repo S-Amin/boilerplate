@@ -1,5 +1,7 @@
 const path = require("path");
 const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
+
+// const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 // const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
 module.exports = {
