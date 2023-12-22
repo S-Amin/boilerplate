@@ -10,6 +10,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/node": "^20.10.5",
     "fork-ts-checker-webpack-plugin": "^9.0.2",
     "pnp-webpack-plugin": "^1.7.0",
     "ts-loader": "^9.5.1",

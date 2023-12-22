@@ -277,7 +277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^20.10.5":
   version: 20.10.5
   resolution: "@types/node@npm:20.10.5"
   dependencies:
@@ -789,6 +789,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "boilerplate@workspace:."
   dependencies:
+    "@types/node": "npm:^20.10.5"
     fork-ts-checker-webpack-plugin: "npm:^9.0.2"
     lodash: "npm:^4.17.21"
     pnp-webpack-plugin: "npm:^1.7.0"

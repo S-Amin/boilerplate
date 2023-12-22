@@ -1,5 +1,5 @@
-import _ from "lodash";
+import { last } from "lodash";
 
 export function findLast(arr: any[]) {
-  return _.last(arr);
+  return last(arr);
 }
